@@ -294,11 +294,16 @@ def process_csv(csv_path: Path, output_dir: Path, workers: int,
             flush_print(f"    [OK]   {video_id}  {result['title'][:50]}")
         else:
             tracker.mark_failed(video_id)
-            # Still count it as "processed" so we don't retry endlessly;
-            # but also track consecutive failures.
             tracker.mark_completed(video_id)
-            consecutive_failures += 1
-            flush_print(f"    [FAIL] {video_id}  {result.get('error', '')[:80]}")
+            error_str = result.get("error", "")
+            # Only count rate-limit errors toward consecutive failures
+            is_rate_limit = any(e in error_str for e in ("IpBlocked", "RequestBlocked"))
+            if is_rate_limit:
+                consecutive_failures += 1
+            else:
+                # Non-rate-limit failure (TranscriptsDisabled, etc) - reset counter
+                consecutive_failures = 0
+            flush_print(f"    [FAIL] {video_id}  {error_str[:80]}")
 
         current_batch.append(result)
         processed_since_save += 1
