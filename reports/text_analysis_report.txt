@@ -1,0 +1,101 @@
+======================================================================
+TEXT SENTIMENT & BEHAVIORAL ECONOMICS ANALYSIS REPORT
+Generated: 2026-02-11T10:21:34.078613
+======================================================================
+
+OVERVIEW
+----------------------------------------
+Total sentences analyzed:     29514
+Total segments analyzed:       21604
+Total videos:                  719
+
+SENTIMENT BY SEGMENT TYPE
+----------------------------------------
+  counter:
+    Count:    2036
+    Mean:     0.0498
+    Std:      0.1911
+    Min:      -0.7783
+    Max:      0.8860
+
+  deal:
+    Count:    5952
+    Mean:     0.0860
+    Std:      0.2531
+    Min:      -0.9091
+    Max:      0.9697
+
+  expert_appraisal:
+    Count:    2242
+    Mean:     0.1096
+    Std:      0.2386
+    Min:      -0.8537
+    Max:      0.8402
+
+  first_offer:
+    Count:    1817
+    Mean:     0.1173
+    Std:      0.2263
+    Min:      -0.6808
+    Max:      0.8651
+
+  initial_ask:
+    Count:    9557
+    Mean:     0.1997
+    Std:      0.2271
+    Min:      -0.8280
+    Max:      0.9325
+
+KAHNEMAN BEHAVIORAL ECONOMICS FEATURES
+----------------------------------------
+  Loss frame videos:           74
+  Gain frame videos:           41
+  Anchor sentiment shifts:     495
+    Mean shift:                -0.0372
+  Expert sentiment shocks:     411
+    Mean shock:                -0.0635
+  Sentiment trajectories:      680
+    Mean trajectory:           -0.0046
+
+NISBETT LANGUAGE PATTERNS
+----------------------------------------
+  Total analytic markers:      9634
+  Total holistic markers:      996
+  Analytic ratio:              0.9063
+
+  Analytic marker breakdown:
+    specific_numbers: 7826
+    conditions: 1003
+    categories: 217
+    rules: 279
+    comparisons: 309
+
+  Holistic marker breakdown:
+    family_story: 289
+    feelings: 216
+    relationships: 62
+    aesthetic: 291
+    context: 138
+
+ROLE CLASSIFICATION
+----------------------------------------
+  neutral: 10582
+  asking: 6653
+  closing: 5739
+  appraising: 2317
+  countering: 2250
+  offering: 1922
+  rejecting: 51
+
+SENTIMENT BY ROLE
+----------------------------------------
+  appraising: mean=0.1202, std=0.2443, n=2317
+  asking: mean=0.1707, std=0.2347, n=6653
+  closing: mean=0.0879, std=0.2584, n=5739
+  countering: mean=0.0473, std=0.1876, n=2250
+  neutral: mean=0.1384, std=0.2308, n=10582
+  offering: mean=0.1171, std=0.2388, n=1922
+  rejecting: mean=-0.1029, std=0.1908, n=51
+
+======================================================================
+END OF REPORT

@@ -1,0 +1,59 @@
+======================================================================
+BEHAVIORAL ECONOMICS MULTIMODAL REPORT
+Kahneman Framework Analysis
+Generated: 2026-02-11T23:24:27.804972
+======================================================================
+
+OVERVIEW
+----------------------------------------
+Total videos analyzed:       599
+Total matched pairs:         22780
+
+LOSS/GAIN FRAMING
+----------------------------------------
+Loss frame videos:           46
+Gain frame videos:           17
+Neutral frame videos:        536
+
+Loss frame mean congruence:  0.6753 (n=46)
+Gain frame mean congruence:  0.6760 (n=17)
+
+CONGRUENCE BY NEGOTIATION STAGE
+----------------------------------------
+  initial_ask:
+    Congruence: 0.6656 +/- 0.0876 (n=558)
+    Text sentiment: 0.1818
+    Face valence:   -0.2081
+
+  first_offer:
+    Congruence: 0.6983 +/- 0.1309 (n=391)
+    Text sentiment: 0.0951
+    Face valence:   -0.2558
+
+  counter:
+    Congruence: 0.7117 +/- 0.1142 (n=428)
+    Text sentiment: 0.0377
+    Face valence:   -0.2843
+
+  expert_appraisal:
+    Congruence: 0.6880 +/- 0.1179 (n=310)
+    Text sentiment: 0.1058
+    Face valence:   -0.2025
+
+  deal:
+    Congruence: 0.6990 +/- 0.1005 (n=542)
+    Text sentiment: 0.0826
+    Face valence:   -0.2501
+
+LOSS AVERSION SIGNATURE
+----------------------------------------
+(Lower congruence during loss frames suggests emotional leakage,
+ consistent with Kahneman's prospect theory predictions)
+
+  Gain frame congruence:     0.6760
+  Loss frame congruence:     0.6753
+  Difference (gain - loss):  0.0007
+  >> Loss aversion signal detected: lower congruence in loss frames
+
+======================================================================
+END OF REPORT

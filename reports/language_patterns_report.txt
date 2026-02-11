@@ -1,0 +1,54 @@
+======================================================================
+LANGUAGE PATTERNS MULTIMODAL REPORT
+Nisbett Framework Analysis
+Generated: 2026-02-11T23:24:27.807030
+======================================================================
+
+OVERVIEW
+----------------------------------------
+Total matched text-face pairs: 22780
+
+NISBETT ANALYTIC vs HOLISTIC MARKERS
+----------------------------------------
+  Total analytic markers:     7256
+  Total holistic markers:     795
+  Analytic ratio:             0.9013
+
+CONGRUENCE BY LANGUAGE STYLE
+----------------------------------------
+  Analytic sentences:  congruence=0.6731 (n=5590)
+  Holistic sentences:  congruence=0.6333 (n=775)
+  Neutral sentences:   congruence=0.6905 (n=16539)
+
+FACIAL EMOTION BY LANGUAGE STYLE
+----------------------------------------
+
+  Analytic language moments:
+    sad: 1705 (30.5%)
+    fear: 1192 (21.3%)
+    neutral: 980 (17.5%)
+    happy: 871 (15.6%)
+    angry: 728 (13.0%)
+    surprise: 96 (1.7%)
+    disgust: 18 (0.3%)
+
+  Holistic language moments:
+    sad: 227 (29.3%)
+    fear: 158 (20.4%)
+    neutral: 156 (20.1%)
+    happy: 118 (15.2%)
+    angry: 106 (13.7%)
+    surprise: 10 (1.3%)
+
+SENTIMENT BY ROLE
+----------------------------------------
+  appraising: sentiment=0.1176, congruence=0.6809 (n=1557)
+  asking: sentiment=0.1714, congruence=0.6723 (n=5125)
+  closing: sentiment=0.0947, congruence=0.6889 (n=4576)
+  countering: sentiment=0.0489, congruence=0.7119 (n=1792)
+  neutral: sentiment=0.1264, congruence=0.6847 (n=8306)
+  offering: sentiment=0.1098, congruence=0.6868 (n=1380)
+  rejecting: sentiment=-0.1090, congruence=0.7138 (n=44)
+
+======================================================================
+END OF REPORT

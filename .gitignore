@@ -4,3 +4,9 @@ __pycache__/
 .DS_Store
 frames/
 *.tmp
+key_frames/
+master_dataset/
+results/
+.claude/
+.devcontainer/
+.github/
