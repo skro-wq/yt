@@ -1,0 +1,277 @@
+======================================================================
+NEGOTIATION ECONOMICS: EXPERT IMPACT, DEAL OUTCOMES
+& COGNITIVE SYSTEM ENGAGEMENT
+Generated: 2026-02-11T23:37:46.912247
+======================================================================
+
+1. DATA OVERVIEW
+--------------------------------------------------
+Total videos with negotiations:  719
+Videos with price data:          521
+Videos with ask + deal price:    135
+Videos with expert appraisal:    103
+Full price chain (ask→expert→deal): 38
+
+Outcome classification:
+  unknown: 351 (48.8%)
+  deal: 190 (26.4%)
+  no_deal: 178 (24.8%)
+
+Item categories:
+  other: 475
+  jewelry_precious: 58
+  weapons_military: 47
+  art_antiques: 38
+  entertainment_pop_culture: 33
+  vehicles_machines: 31
+  historical_artifacts: 16
+  sports_memorabilia: 13
+  books_documents: 8
+
+
+2. PRICE TRAJECTORY ANALYSIS
+--------------------------------------------------
+
+Ask → Deal Price Change (n=116, filtered to reasonable range):
+  Mean change:    -7.2%
+  Median change:  -37.5%
+  Std:            108.1%
+  Deal > Ask:     29
+  Deal ≈ Ask:     8
+  Deal < Ask:     79
+
+Seller Concession (ask - deal)/ask (n=127):
+  Mean concession: 15.0%
+  Median:          50.0%
+
+Initial Ask prices (n=390):
+  Mean:   $18,882
+  Median: $1,500
+  Range:  $2 - $750,000
+
+First Offer prices (n=230):
+  Mean:   $6,970
+  Median: $750
+  Range:  $8 - $500,000
+
+Counter prices (n=187):
+  Mean:   $8,020
+  Median: $400
+  Range:  $7 - $550,000
+
+Expert prices (n=103):
+  Mean:   $16,889
+  Median: $2,000
+  Range:  $4 - $750,000
+
+Deal prices (n=190):
+  Mean:   $10,539
+  Median: $612
+  Range:  $4 - $300,000
+
+
+3. EXPERT IMPACT ON PRICING
+--------------------------------------------------
+
+Expert Appraisal vs Initial Ask (n=89):
+  Mean change:     -19.3%
+  Median change:   -33.3%
+  Expert > Ask:    12 (13.5%)
+  Expert ≈ Ask:    23 (25.8%)
+  Expert < Ask:    54 (60.7%)
+
+Expert Direction → Deal Outcome:
+  Expert above ask (n=15):
+    deal=6 (40.0%), no_deal=7 (46.7%), unknown=2
+  Expert below ask (n=57):
+    deal=33 (57.9%), no_deal=9 (15.8%), unknown=15
+  Expert equal ask (n=23):
+    deal=8 (34.8%), no_deal=6 (26.1%), unknown=9
+
+Full Price Chain Analysis (n=38):
+
+  When expert ABOVE ask (n=7):
+    Deal vs Expert: -60.0% median
+    Deal vs Ask:    43.3% median
+    → Seller captures uplift: sellers get more when expert validates higher value
+
+  When expert BELOW ask (n=27):
+    Deal vs Expert: 5.3% median
+    Deal vs Ask:    -50.0% median
+    → Seller must concede: expert anchors price downward
+
+
+4. DEAL vs NO-DEAL: WHAT PREDICTS OUTCOME?
+--------------------------------------------------
+
+Classifiable outcomes: deal=190, no_deal=178
+
+Feature Comparison (deal vs no_deal):
+Feature                             Deal         No Deal      Cohen d    Sig   
+---------------------------------------------------------------------------
+Mean Sentiment                      0.130        0.122        0.094            
+Sentiment Std (volatility)          0.224        0.218        0.092            
+Sentiment Slope (trajectory)        -0.024       -0.026       0.043            
+Analytic Ratio                      0.893        0.893        0.001            
+Mean Congruence                     0.682        0.681        0.032            
+Happy Face %                        0.105        0.135        -0.305           
+Sad Face %                          0.219        0.278        -0.383           
+Fear Face %                         0.162        0.191        -0.238           
+Angry Face %                        0.103        0.113        -0.094           
+Neutral Face %                      0.129        0.153        -0.223           
+N Segments                          40.153       39.753       0.008            
+N Counter Offers                    3.216        4.427        -0.196           
+
+Deal Rate by Item Category:
+  other                           50.0% deal (n=244)
+  jewelry_precious                36.0% deal (n=25)
+  weapons_military                61.5% deal (n=26)
+  art_antiques                    45.5% deal (n=22)
+  entertainment_pop_culture       55.0% deal (n=20)
+  vehicles_machines               81.8% deal (n=11)
+  historical_artifacts            54.5% deal (n=11)
+  books_documents                100.0% deal (n=5)
+
+Deal Rate by Cognitive System:
+  system_1              47.4% deal (n=19)
+  system_2              65.9% deal (n=135)
+  mixed                 43.0% deal (n=214)
+
+Deal Rate by Expert Presence:
+  With Expert           69.7% deal (n=76)
+  Without Expert        46.9% deal (n=292)
+
+Deal Rate by Show:
+  pawn_stars                 62.4% deal (n=173)
+  cajun_pawn_stars           62.3% deal (n=53)
+  hardcore_pawn              34.5% deal (n=142)
+
+
+5. ANCHORING & PRICE PSYCHOLOGY
+--------------------------------------------------
+
+Anchoring: Initial Ask → Deal Price
+  Pearson r = 0.8235 (n=135)
+  → Strong anchoring effect
+  Initial ask strongly predicts final deal price
+
+Anchoring: First Offer → Deal Price
+  Pearson r = 0.8481 (n=92)
+
+Anchoring: Expert Appraisal → Deal Price
+  Pearson r = 0.9472 (n=38)
+  → Expert appraisal strongly anchors the final price
+
+Concession Patterns by Price Range:
+  $0-100          median concession: 36.7% (n=9)
+  $100-500        median concession: 77.3% (n=10)
+  $500-2,000      median concession: 37.5% (n=30)
+  $2,000-10,000   median concession: 65.0% (n=36)
+  $10,000+        median concession: 60.2% (n=42)
+
+
+6. COGNITIVE SYSTEM ENGAGEMENT (Kahneman System 1 / System 2)
+--------------------------------------------------
+
+System Distribution:
+  mixed: 359 (49.9%)
+  system_2: 298 (41.4%)
+  system_1: 62 (8.6%)
+
+System Engagement Indicators by Stage:
+Stage                     Mean Sentiment     Analytic/Sent      Description                   
+-------------------------------------------------------------------------------------------
+  initial_ask             0.1849             —                  System 1 (emotional, positive)
+  first_offer             0.1036             —                  Mixed (moderate affect)
+  counter                 0.0407             —                  Mixed (moderate affect)
+  expert_appraisal        0.1084             —                  Mixed (moderate affect)
+  deal                    0.0816             —                  Mixed (moderate affect)
+
+Concession by Cognitive System:
+  system_2        median concession: 60.0% (n=64)
+  mixed           median concession: 50.0% (n=61)
+
+
+7. EMOTION × ECONOMICS INTERACTION
+--------------------------------------------------
+
+Sentiment → Concession: r=0.0252 (n=135)
+  → More positive sentiment correlates with LARGER concessions (giving in)
+
+Congruence → Concession: r=-0.0959 (n=88)
+  → Higher text-face alignment correlates with less concession
+
+Dominant Emotion → Deal Outcome:
+  happy      deal rate:  53.3% (deal=8, no_deal=7)
+  sad        deal rate:  43.4% (deal=85, no_deal=111)
+  fear       deal rate:  52.9% (deal=27, no_deal=24)
+  angry      deal rate:  60.0% (deal=6, no_deal=4)
+  neutral    deal rate:  53.8% (deal=14, no_deal=12)
+
+Expert Stage Emotional Impact:
+  Sentiment shift at expert stage (n=95):
+    Mean shift: -0.0913
+    Negative shifts (shock): 46 (48.4%)
+    Positive shifts (relief): 8 (8.4%)
+  Expert sentiment shock → Concession: r=-0.0835 (n=114)
+
+
+8. ECONOMICS BY ITEM CATEGORY
+--------------------------------------------------
+
+Category                       Med Ask      Med Deal     Med Conc%    Deal Rate    n    
+-----------------------------------------------------------------------------------
+  other                        $1200        $550         39.2%        50.0%        475
+  jewelry_precious             $2000        $850         29.2%        36.0%        58
+  weapons_military             $1000        $1350        60.0%        61.5%        47
+  art_antiques                 $2000        $1500        0.0%         45.5%        38
+  entertainment_pop_culture    $900         $325         76.0%        55.0%        33
+  vehicles_machines            $4000        $5100        66.7%        81.8%        31
+  historical_artifacts         $2000        $500         87.5%        54.5%        16
+  sports_memorabilia           $4000        $70          N/A          50.0%        13
+  books_documents              $6000        $24000       -175.0%      100.0%       8
+
+
+9. SHOW-LEVEL COMPARISON
+--------------------------------------------------
+
+  pawn_stars (n=290):
+    Median ask:        $4,000
+    Median deal:       $1,250
+    Median concession: 50.0%
+    Deal rate:         62.4% (n=173)
+    Mean sentiment:    0.1504
+    Cognitive system:  system_2=161, mixed=119, system_1=10
+
+  cajun_pawn_stars (n=193):
+    Median ask:        $2,750
+    Median deal:       $1,500
+    Median concession: 63.6%
+    Deal rate:         62.3% (n=53)
+    Mean sentiment:    0.1484
+    Cognitive system:  system_2=94, mixed=55, system_1=44
+
+  hardcore_pawn (n=236):
+    Median ask:        $500
+    Median deal:       $462
+    Median concession: 39.2%
+    Deal rate:         34.5% (n=142)
+    Mean sentiment:    0.0912
+    Cognitive system:  mixed=185, system_2=43, system_1=8
+
+
+10. KEY CONCLUSIONS
+==================================================
+
+1. ANCHORING: Initial ask price is the strongest predictor of deal price (r=0.8235). The first number spoken dominates the entire negotiation, consistent with Tversky & Kahneman (1974).
+
+2. EXPERT IMPACT: When experts appraise ABOVE ask, deal price moves +43.3% vs ask (median, n=7). When BELOW ask, deal moves -50.0% vs ask (median, n=25). Expert appraisal serves as a re-anchoring mechanism.
+
+3. DEAL PREDICTION: Deals show mean sentiment 0.130 vs no-deals 0.122 (Cohen's d=0.094). Negligible effect size.
+
+4. COGNITIVE SYSTEM: System 2 engagement shows 65.9% deal rate (n=135).
+
+5. COGNITIVE SYSTEM: System 1 engagement shows 47.4% deal rate (n=19).
+
+======================================================================
+END OF REPORT
