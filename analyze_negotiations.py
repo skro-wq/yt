@@ -203,7 +203,8 @@ def get_sentences_from_video(video):
 
     # Fall back to raw transcript entries
     if not sentences and "transcript" in video and video["transcript"]:
-        raw = video["transcript"].get("raw_entries", [])
+        t = video["transcript"]
+        raw = t if isinstance(t, list) else t.get("raw_entries", [])
         for entry in raw:
             sentences.append({
                 "text": entry.get("text", ""),
@@ -338,7 +339,8 @@ def main():
     videos_with_negotiations = 0
 
     for i, (vid, video) in enumerate(all_videos.items()):
-        if video.get("status") != "success":
+        # Skip videos without transcripts
+        if not video.get("transcript"):
             continue
 
         segments = analyze_video_negotiations(video)

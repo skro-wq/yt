@@ -149,8 +149,12 @@ def compute_stats(videos):
 
         if "transcript" in video and video["transcript"]:
             stats["videos_with_transcripts"] += 1
-            raw = video["transcript"].get("raw_entries", [])
-            stats["total_transcript_entries"] += len(raw)
+            t = video["transcript"]
+            if isinstance(t, list):
+                stats["total_transcript_entries"] += len(t)
+            elif isinstance(t, dict):
+                raw = t.get("raw_entries", [])
+                stats["total_transcript_entries"] += len(raw)
 
         if "analysis_fields" in video and video["analysis_fields"]:
             sentences = video["analysis_fields"].get("sentence_boundaries", [])
